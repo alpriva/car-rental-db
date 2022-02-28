@@ -1,4 +1,21 @@
 # car-rental-db
  
-TODO: Add here description for the project
-TODO: change the .sql file names to reflect their purpose.
+This project represents database for a car rental company
+
+Database is defined by the relations below:
+
+ branch (bno, baddress, mid)
+
+ worker (wid, wname, waddress, bno)
+
+ car (lno, myear, comp, doors, shift, boot, seats)
+
+ client (cid,cname, address, credit, byear)
+
+ request (cid, rno, days, doors, shift, boot, seats, wid)
+
+ rent (cid, rno, lno, fdate,tdate,wid, amount)
+
+
+
+

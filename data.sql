@@ -1,3 +1,4 @@
+/*adding data to tables*/
 insert into branch values (1 ,'hanasi 1 ramat gan',99),
 (2,'kalanit 12 naharya',88),
 (3,'hatamar 13 eilat',97);

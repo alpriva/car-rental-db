@@ -1,3 +1,5 @@
+/* trigger checks by adding an actual rental that the selected vehicle meets the requirement of
+ the number of seats in the vehicle in the request and at least one other request*/
 create or replace function trigf1() returns trigger as $$
 declare
    new_seats int;

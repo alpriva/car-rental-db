@@ -1,3 +1,4 @@
+/*building tables*/
 create table branch
 (bno int,
  baddress varchar(50),
