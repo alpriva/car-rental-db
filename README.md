@@ -1,8 +1,8 @@
 # car-rental-db
  
-This project represents database for a car rental company
+This project represents a database for a car rental company
 
-Database is defined by the relations below:
+The database is defined by the relations below:
 
  branch (bno, baddress, mid)
  worker (wid, wname, waddress, bno)
